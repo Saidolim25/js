@@ -58,8 +58,8 @@ switch (month) {
         default:
 }
 
-let month2 = "aprel";
-switch (month2) {
+let days = yanvar;
+switch (days) {
     case yanvar:
         console.log(30);
         break;
@@ -98,7 +98,7 @@ switch (month2) {
         default:
 }
 
-let studenScore =5;
+let studentScore=5;
 switch (studentScore) {
     case 5:
         console.log("3.000.000 so'm");
@@ -113,3 +113,17 @@ switch (studentScore) {
         console.log("sizga stipendiya yo'q");
 }
 
+let num = a;
+if (num > 0) {
+    console.log("true");
+}else {
+    console.log("false");
+}
+
+let number = 10;
+let number2 = 20;
+if (number > 0 && number2 > 0 ) {
+    console.log("true");
+} else {
+    console.log("false");
+}
